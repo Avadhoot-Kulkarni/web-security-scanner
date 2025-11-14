@@ -1,6 +1,6 @@
 # 🔒 Web Security Scanner
 
-A lightweight, modular Python-based web security scanner that performs fundamental vulnerability checks on any public website.  
+A lightweight, modular Python-based web security scanner that performs fundamental vulnerability checks on any public website.
 Designed for learning, cybersecurity practice, and showcasing secure coding + security automation skills.
 
 ---
@@ -37,7 +37,7 @@ Scans for commonly exposed files and directories such as:
 
 Scans commonly used TCP ports like:
 
-- 80, 443, 22, 21, 3306, 8080  
+- 80, 443, 22, 21, 3306, 8080
   (Requires Nmap to be installed)
 
 ### ✔ JSON Reporting
@@ -62,3 +62,18 @@ Automatically generates a structured JSON file containing:
 ---
 
 ## 📂 Project Structure
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone [https://github.com/](https://github.com/)<your-username>/web-security-scanner.git
+cd web-security-scanner
+```
+
+### 2. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
